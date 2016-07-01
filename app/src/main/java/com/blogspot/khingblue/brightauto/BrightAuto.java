@@ -62,7 +62,7 @@ public class BrightAuto extends Activity {
             if (Settings.System.canWrite(this)) {
                 return true;
             } else {
-                Log.d(TAG, "starting action_manage_write_settings activity");
+                Log.d(TAG, "Starting action_manage_write_settings activity");
 
                 // start up settings to ask for permission
                 Intent intent = new Intent(android.provider.Settings.ACTION_MANAGE_WRITE_SETTINGS);

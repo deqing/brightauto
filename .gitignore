@@ -4,6 +4,8 @@
 .gradle
 /.idea/libraries
 /.idea/workspace.xml
+/.idea/gradle.xml
+/.idea/vcs.xml
 /build
 /captures
 /local.properties
